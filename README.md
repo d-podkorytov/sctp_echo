@@ -1,14 +1,16 @@
 
-simple SCTP echo on ERLANG with some number of SCTP data streams.
+# SCTP Demo for Erlang OTP
 
-1) Compilation:
+It is simple SCTP echo server and client for ERLANG with some number of SCTP data streams.
+
+## Compilation:
    erlc *.erl
 
-2) Run in one erl session server:
+## Run in one erl session server:
 
  sctp_echo2:start().
 
-3) Run in another erl session client code:
+## Run in another erl session client code:
 
  sctp_cl:start().
 
